@@ -1,0 +1,44 @@
+﻿<Window x:Class="ProjectileMotion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        SizeChanged="MainWindow_OnSizeChanged"
+        Title="Projectile Motion" Height="500" Width="525">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70px" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Margin="5">
+                <TextBlock>Initial Speed:</TextBlock>
+                <TextBox Name="InitialSpeedBox" />
+                <TextBlock Name="InitialSpeedHintTextBlock" Foreground="Gray">Greater or equal to 0</TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="5">
+                <TextBlock>Angle:</TextBlock>
+                <TextBox Name="AngleBox" />
+                <TextBlock Name="AngleHintTextBlock" Foreground="Gray">Between 0 and 90</TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Column="2" Margin="5">
+                <TextBlock>Sampling:</TextBlock>
+                <TextBox Name="SamplingBox">2</TextBox>
+                <TextBlock Name="SamplingHintTextBlock" Foreground="Gray">Greater than 0</TextBlock>
+            </StackPanel>
+            <Button Click="DrawButton_OnClick" Grid.Column="3" Margin="5">Draw</Button>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Border BorderThickness="1" BorderBrush="Black" Name="Border">
+                <Polyline Stroke="Red" StrokeThickness="1" Name="ProjectileMotionPolyline" />
+            </Border>
+        </Grid>
+    </Grid>
+</Window>

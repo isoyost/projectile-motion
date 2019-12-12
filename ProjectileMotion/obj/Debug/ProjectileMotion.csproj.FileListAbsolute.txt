@@ -1,0 +1,13 @@
+C:\Users\Patryk\Projekty\ProjectileMotion\ProjectileMotion\obj\Debug\ProjectileMotion.csprojAssemblyReference.cache
+C:\Users\Patryk\Projekty\ProjectileMotion\ProjectileMotion\obj\Debug\MainWindow.g.cs
+C:\Users\Patryk\Projekty\ProjectileMotion\ProjectileMotion\obj\Debug\App.g.cs
+C:\Users\Patryk\Projekty\ProjectileMotion\ProjectileMotion\obj\Debug\ProjectileMotion_MarkupCompile.cache
+C:\Users\Patryk\Projekty\ProjectileMotion\ProjectileMotion\bin\Debug\ProjectileMotion.exe.config
+C:\Users\Patryk\Projekty\ProjectileMotion\ProjectileMotion\bin\Debug\ProjectileMotion.exe
+C:\Users\Patryk\Projekty\ProjectileMotion\ProjectileMotion\bin\Debug\ProjectileMotion.pdb
+C:\Users\Patryk\Projekty\ProjectileMotion\ProjectileMotion\obj\Debug\MainWindow.baml
+C:\Users\Patryk\Projekty\ProjectileMotion\ProjectileMotion\obj\Debug\ProjectileMotion.g.resources
+C:\Users\Patryk\Projekty\ProjectileMotion\ProjectileMotion\obj\Debug\ProjectileMotion.Properties.Resources.resources
+C:\Users\Patryk\Projekty\ProjectileMotion\ProjectileMotion\obj\Debug\ProjectileMotion.csproj.GenerateResource.cache
+C:\Users\Patryk\Projekty\ProjectileMotion\ProjectileMotion\obj\Debug\ProjectileMotion.exe
+C:\Users\Patryk\Projekty\ProjectileMotion\ProjectileMotion\obj\Debug\ProjectileMotion.pdb
